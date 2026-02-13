@@ -9,7 +9,6 @@ import { Audiowide, Pacifico } from 'next/font/google';
 import '../globals.css';
 
 // runtime edge para Cloudflare
-export const runtime = 'edge';
 
 const audiowide = Audiowide({
   subsets: ['latin'],

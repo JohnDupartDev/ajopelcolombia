@@ -9,8 +9,25 @@ export const routing = defineRouting({
   localePrefix: "as-needed",
 
   pathnames: {
-    
+    // Ruta Raíz
     "/": "/",
-    
+
+    // Ruta Nosotros
+    "/nosotros": {
+      es: "/nosotros",
+      en: "/about"
+    },
+
+    // Ruta Productos
+    "/productos": {
+      es: "/productos",
+      en: "/products"
+    },
+
+    // Ruta Contacto
+    "/contacto": {
+      es: "/contacto",
+      en: "/contact"
+    }
   },
 });
