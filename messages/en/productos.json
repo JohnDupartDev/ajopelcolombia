@@ -1,0 +1,93 @@
+{
+  "ProductsHero": {
+    "badge": "Industrial Quality",
+    "title": "Product Catalog",
+    "description": "Pneumatically peeled garlic solutions with the highest hygiene and preservation standards for the food industry."
+  },
+  "ProductsGrid": {
+    "bulk": {
+      "title": "BULK GARLIC",
+      "tag": "Industrial Line",
+      "badge": "High Demand",
+      "ingredients": "Imported peeled garlic",
+      "format": "Polybag as requested",
+      "weight": "As requested",
+      "variety": "Purple and white",
+      "cta": "Quote Bulk"
+    },
+    "packed": {
+      "title": "PACKED GARLIC",
+      "tag": "By Requested Weight",
+      "badge": "Customizable",
+      "ingredients": "Imported peeled garlic",
+      "format": "With or without vacuum",
+      "weight": "Kilo or requested weight",
+      "variety": "Purple and white",
+      "cta": "Quote Packed"
+    },
+    "labels": {
+      "ingredients": "Ingredients",
+      "format": "Format",
+      "weight": "Net Weight",
+      "variety": "Variety"
+    }
+  },
+  "ProductSpecs": {
+    "coldChain": {
+      "title": "Cold Chain",
+      "desc": "Keep refrigerated between 0°C and 4°C for maximum freshness."
+    },
+    "certification": {
+      "title": "Certification",
+      "desc": "BPM standardized processes and health compliance."
+    },
+    "delivery": {
+      "title": "Distribution",
+      "desc": "National coverage with our own refrigerated vehicles."
+    }
+  },
+  "ProductReviews": {
+    "title": "What our customers say",
+    "subtitle": "Trust that drives the gastronomic industry",
+    "items": {
+      "one": {
+        "text": "\"The quality of Ajopel's bulk garlic has significantly optimized our sauce production line.\"",
+        "author": "Juan Pérez",
+        "position": "Plant Manager, Salsas del Valle"
+      },
+      "two": {
+        "text": "\"Excellent presentation and punctuality. Vacuum-packed garlic saves us hours of manual labor.\"",
+        "author": "Maria Rodriguez",
+        "position": "Purchasing Manager, Catering Bogotá"
+      },
+      "three": {
+        "text": "\"Clean and fresh product. The personalized weight option is ideal for our business model.\"",
+        "author": "Carlos López",
+        "position": "Director, Alimentos Express"
+      }
+    }
+  },
+  "ProductFaq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "minOrder": {
+        "q": "What is the minimum order for bulk garlic?",
+        "a": "We handle industrial orders from 50kg for bulk references. For specific packaging, please contact us to evaluate your needs."
+      },
+      "delivery": {
+        "q": "Do you deliver nationwide?",
+        "a": "Yes, we have specialized logistics to guarantee the cold chain throughout the Colombian territory."
+      },
+      "shelfLife": {
+        "q": "What is the product's shelf life?",
+        "a": "Under optimal refrigeration conditions (0°C - 4°C), our peeled and vacuum-packed garlic has a shelf life of up to 45 days."
+      }
+    }
+  },
+  "ProductsCTA": {
+    "title": "Ready to optimize your production?",
+    "description": "Request a personalized quote today and discover why we are market leaders.",
+    "ctaPrimary": "Quote Now",
+    "ctaSecondary": "Contact Sales"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Contact": {
+    "hero": {
+      "badge": "Contáctenos",
+      "titleMain": "Hablemos de",
+      "titleAccent": "Negocios",
+      "description": "Soluciones industriales de pelado de ajo con tecnología de vanguardia. Estamos listos para escalar su producción.",
+      "whatsapp": "Chat en WhatsApp"
+    },
+    "info": {
+      "location": "Bogotá Cundinamarca",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo Electrónico"
+    },
+    "form": {
+      "title": "Envíenos un mensaje",
+      "subtitle": "Complete el formulario a continuación y nuestro equipo B2B se pondrá en contacto en breve.",
+      "name": "Nombre Completo",
+      "namePlaceholder": "Juan Pérez",
+      "company": "Nombre de la Empresa",
+      "companyPlaceholder": "Industrias Alimenticias S.A.S",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "juan@empresa.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Hola, estoy interesado en una cotización para...",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "ContactBenefits": {
+    "badge": "Beneficios B2B",
+    "title": "Por qué contactar a Ajopel",
+    "features": {
+      "tech": {
+        "title": "Tecnología Neumática",
+        "desc": "Implementamos procesos de pelado neumático que garantizan cero daño al producto y máxima higiene, reduciendo mermas significativamente."
+      },
+      "speed": {
+        "title": "Respuesta Ágil",
+        "desc": "Nuestro equipo comercial entiende la urgencia de la industria alimentaria. Cotizaciones en menos de 24 horas para pedidos mayoristas."
+      },
+      "quality": {
+        "title": "Calidad Certificada",
+        "desc": "Estándares de calidad rigurosos que cumplen con normativas sanitarias, ideales para exportación y cadenas exigentes."
+      }
+    }
+  },
+  "ContactSuccess": {
+    "badge": "Casos de Éxito",
+    "title": "Lo que dicen nuestros aliados",
+    "description": "Hemos transformado la línea de producción de decenas de empresas en Colombia.",
+    "moreStories": "Ver más historias",
+    "testimonial": {
+      "text": "\"Contactar a Ajopel fue el punto de inflexión para nuestra planta de salsas. La calidad del ajo pelado es superior y el servicio al cliente es impecable.\"",
+      "author": "Carlos Ruiz",
+      "position": "Gerente de Producción, Salsas del Valle"
+    }
+  }
+}

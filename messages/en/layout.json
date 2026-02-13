@@ -1,0 +1,40 @@
+{
+ 
+   "Metadata": {
+  "title": "AjopelColombia | Peeled Garlic Production & Distribution in Colombia",
+  "description": "AjopelColombia is a Colombian company specializing in the production, processing, and distribution of high-quality peeled garlic. We deliver fresh, hygienically prepared, ready-to-use garlic for restaurants, food manufacturers, and wholesale distributors nationwide.",
+  "keywords": "peeled garlic, peeled garlic supplier Colombia, garlic distributor, fresh garlic wholesale, processed garlic, garlic for restaurants, food industry supplier Colombia, bulk garlic supplier"
+},
+  "Index": {
+    "boilerplateName": "AjopelColombia",
+    "home": "Home",
+    "services": "Services",
+    "about": "About-Us",
+    "contact": "Contact",
+    "products": "Products",
+    "about-me": "About me",
+    "cotizar": "Request a Quote",
+    "quoteButton": "Request a Quote",
+    "title": "Menu"
+  },
+  "Footer": {
+    "description": "Founded in 2012, a family-rooted company distinguished by the quality and excellence of its products and services.",
+    "companyTitle": "Company",
+    "productsTitle": "Products",
+    "contactTitle": "Contact",
+    "links": {
+      "about": "About Us",
+  "process": "Our Process",
+  "peeled": "Whole Peeled Garlic",
+  "paste": "Bulk Peeled Garlic",
+  "custom": "Custom Orders"
+    },
+    "legal": {
+      "rights": "© 2026 Ajopel Colombia. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "diseño": "Website Design and Development by ZipaquiraDigital"
+
+    }
+  }
+}

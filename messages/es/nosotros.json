@@ -1,0 +1,161 @@
+{
+  "AboutHero": {
+    "badge": "Líderes en Food-Tech",
+    "titleMain": "Revolucionando el",
+    "titleAccent": "pelado de ajo",
+    "titleEnd": "en Colombia.",
+    "description": "Somos pioneros en el procesamiento neumático, una tecnología que elimina el uso de agua y químicos. Garantizamos pureza, higiene y estándares de vanguardia para la industria alimentaria moderna.",
+    "featureWater": "0% Agua",
+    "featureChemicals": "0% Químicos",
+    "featureNatural": "100% Natural",
+    "efficiencyLabel": "Eficiencia",
+    "efficiencyValue": "+40% Rapidez"
+  },
+  "MissionVision": {
+    "missionTitle": "Nuestra Misión",
+    "missionDesc": "Transformar la industria del ajo en Colombia mediante tecnologías sostenibles que garanticen la inocuidad alimentaria, optimicen los recursos de nuestros clientes y respeten el medio ambiente, eliminando el desperdicio de agua en el procesamiento.",
+    "visionTitle": "Nuestra Visión",
+    "visionDesc": "Ser reconocidos en 2030 como el referente latinoamericano en tecnología Food-Tech para el procesamiento de aliáceas, liderando el cambio hacia prácticas industriales cero-residuos y expandiendo nuestra huella de innovación a nivel continental."
+  },
+  "WhyChoose": {
+    "title": "¿Por qué elegir Ajopel?",
+    "subtitle": "Diferenciadores clave que impulsan la rentabilidad y calidad de su negocio.",
+    "features": {
+      "sustainability": {
+        "title": "Sostenibilidad",
+        "desc": "Procesos 100% secos que no contaminan fuentes hídricas."
+      },
+      "efficiency": {
+        "title": "Eficiencia",
+        "desc": "Tiempos de entrega optimizados para su cadena de producción."
+      },
+      "quality": {
+        "title": "Calidad Certificada",
+        "desc": "Cumplimiento estricto de normativas INVIMA y estándares HACCP."
+      },
+      "support": {
+        "title": "Soporte Local",
+        "desc": "Atención directa y personalizada en todo el territorio nacional."
+      }
+    }
+  },
+  "TechProcess": {
+    "title": "Nuestro Proceso Food-Tech",
+    "subtitle": "Tecnología de punta diseñada para mantener la integridad y el sabor del producto.",
+    "steps": {
+      "selection": {
+        "title": "Selección",
+        "desc": "Cosecha premium de los mejores campos colombianos."
+      },
+      "peeling": {
+        "title": "Pelado Neumático",
+        "desc": "Aire a presión sin contacto físico ni agua."
+      },
+      "quality": {
+        "title": "Control Calidad",
+        "desc": "Inspección óptica rigurosa diente por diente."
+      },
+      "packing": {
+        "title": "Empacado",
+        "desc": "Sellado al vacío para máxima frescura y duración."
+      }
+    }
+  },
+  "QualityCommitment": {
+    "badge": "Garantía Total",
+    "title": "Exigentes con la calidad",
+    "description": "Nuestra obsesión por la excelencia nos define. Cada diente de ajo procesado refleja nuestro compromiso inquebrantable con la higiene, la salud y la pureza.",
+    "cards": {
+      "manufacturing": {
+        "title": "Fabricación Exclusiva",
+        "desc": "Respeto absoluto por nuestros clientes y por la materia prima. Mantenemos una higiene absoluta y estándares de calidad rigurosos."
+      },
+      "health": {
+        "title": "Calidad y Salud",
+        "desc": "Instalaciones sanitarias óptimas diseñadas para garantizar productos saludables, libres de aditivos químicos."
+      },
+      "certification": {
+        "title": "Certificación IFS",
+        "desc": "Sistema de gestión de calidad e higiene avalado por auditorías externas basadas en transparencia.",
+        "status": "Auditoría Activa"
+      },
+      "premium": {
+        "title": "Productos Premium",
+        "desc": "Selección estricta para preservar sabor, aroma y picor. Especial enfoque en el ajo morado de alta calidad."
+      },
+      "suppliers": {
+        "title": "Proveedores de Confianza",
+        "desc": "Selección rigurosa de proveedores y auditorías regulares para asegurar excelencia desde el cultivo."
+      }
+    }
+  },
+  "Impact": {
+    "title": "Nuestro Impacto",
+    "history": {
+      "tag": "Trayectoria",
+      "value": "20+",
+      "unit": "Años",
+      "desc": "Liderando el mercado con innovación constante y compromiso con el agro colombiano."
+    },
+    "capacity": {
+      "tag": "Capacidad",
+      "value": "500+",
+      "desc": "Toneladas procesadas anualmente"
+    },
+    "purity": {
+      "value": "100%",
+      "desc": "Sin químicos ni aditivos. Solo ajo puro."
+    },
+    "trust": {
+      "title": "Confianza Total",
+      "desc": "Proveedores preferidos de las grandes cadenas de restaurantes y productoras de alimentos."
+    }
+  },
+  "Team": {
+    "title": "Conozca al Equipo",
+    "members": {
+      "director": {
+        "name": "Carlos Rodriguez",
+        "role": "Director General"
+      },
+      "operations": {
+        "name": "Ana María Diaz",
+        "role": "Gerente de Operaciones"
+      },
+      "plant": {
+        "name": "Ing. Luis Torres",
+        "role": "Jefe de Planta"
+      },
+      "quality": {
+        "name": "Dra. Sofia Mendez",
+        "role": "Control de Calidad"
+      }
+    }
+  },
+  "Gallery": {
+    "title": "Galería de Innovación",
+    "items": {
+      "plant": {
+        "title": "Planta de Procesamiento",
+        "desc": "Infraestructura tecnológica en Bogotá D.C."
+      },
+      "product": {
+        "title": "Producto Terminado"
+      },
+      "lab": {
+        "title": "Calidad AjopelColombia"
+      },
+      "fleet": {
+        "title": "Flota de Distribución",
+        "desc": "Logística refrigerada con cobertura nacional"
+      }
+    }
+  },
+  "AboutFooter": {
+    "badge": "Únase a la revolución Food-Tech",
+    "title": "Elevando el estándar de la industria alimentaria, un diente de ajo a la vez.",
+    "description": "Descubra cómo nuestra tecnología de pelado neumático y nuestro compromiso inquebrantable con la higiene pueden optimizar su cadena de suministro hoy mismo.",
+    "ctaPrimary": "Contáctanos",
+    "ctaSecondary": "Ver Productos"
+  }
+}

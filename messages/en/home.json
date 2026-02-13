@@ -1,0 +1,146 @@
+{
+  "Hero": {
+    "badge": "100% Natural Guarantee",
+   "titleMain": "Pioneers in the Peeling",
+"titleAccent": " in Colombia",
+"titleEnd": " of Garlic",
+    "description": "Optimize your operating costs and guarantee maximum flavor with **Ajopel Colombia**. Food-Tech technology that ensures total hygiene and zero waste.",
+    "ctaPrimary": "Request a Quote",
+    "ctaSecondary": "Watch Video",
+    "socialProof": "Trusted by {count}+ industrial kitchens",
+    "techLabel": "Technology",
+    "techValue": "Pneumatic Peeling"
+  },
+  "FeaturesBar": {
+    "savings": "Save 30% on <br/>Operating Costs",
+    "delivery": "24-48 Hour <br/>Deliveries",
+    "quality": "Guaranteed <br/>Quality"
+  },
+  "Promise": {
+    "badge": "Our Promise",
+    "title": "\"We don't just deliver garlic. We deliver <important>efficiency</important> and <important>consistency</important> so your kitchen never stops.\"",
+    "description": "Forget about waste and man-hours spent peeling. We take care of the raw material so you can focus on creating culinary experiences.",
+    "cta": "Learn about our history"
+  },
+  "Differentiators": {
+    "title": "Key Differentiators",
+    "subtitle": "Why do big brands choose Ajopel? We merge nature with advanced technology.",
+    "cta": "Request Technical Sheet",
+    "cards": {
+      "clean": {
+        "title": "Zero Chemicals",
+        "desc": "Pure garlic without chemical additives or preservatives. Just as nature intended."
+      },
+      "tech": {
+        "title": "Clean Technology",
+        "desc": "Advanced pneumatic peeling technology ensuring zero contact and maximum hygiene standards."
+      },
+      "fresh": {
+        "title": "Guaranteed Freshness",
+        "desc": "From the field to your kitchen in record time, keeping flavor and nutritional value intact."
+      }
+    }
+  },
+  "Process": {
+    "badge": "Total Transparency",
+    "title": "Our Peeling Process",
+    "description": "A revolutionary technique that uses high-pressure air instead of water, preserving the garlic's essential oils.",
+    "cta": "Decide to Quote the Product",
+    "steps": {
+      "selection": {
+        "title": "1. Rigorous Selection",
+        "desc": "Only the best bulbs enter our plant."
+      },
+      "injection": {
+        "title": "2. Air Injection",
+        "desc": "We separate the peel using filtered compressed air."
+      },
+      "quality": {
+        "title": "3. Quality Control",
+        "desc": "Visual inspection to ensure perfect cloves."
+      },
+      "packaging": {
+        "title": "4. Vacuum Packaging",
+        "desc": "Immediate sealing for maximum freshness."
+      }
+    }
+  },
+  "CTA": {
+    "title": "The choice of top chefs",
+    "description": "Quality you can taste in every dish. Consistent, clean, and ready for your kitchen.",
+    "button": "See Products"
+  },
+  "Products": {
+    "badge": "Our Products",
+    "title": "Solutions for your Kitchen",
+    "catalog": "View full catalog",
+    "mainProduct": {
+      "tag": "Best Seller",
+      "name": "Whole Peeled Garlic",
+      "desc": "Ideal for all types of preparations.",
+      "button": "Quote Now"
+    },
+    "culinary": {
+      "title": "Culinary Grade",
+      "desc": "Perfect for high-volume kitchens requiring consistent sizing.",
+      "action": "Request sample"
+    },
+    "paste": {
+      "title": "Garlic Paste"
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "desc": "Zero waste production cycle"
+    }
+  },
+  "Testimonials": {
+    "badge": "Testimonials",
+    "title": "Trusted by Culinary Leaders",
+    "subtitle": "Join hundreds of restaurants and food processors that trust Ajopel for their garlic needs.",
+    "items": {
+      "one": {
+        "text": "\"Since switching to Ajopel, our kitchen efficiency has increased by 30%. Pneumatic peeling preserves natural oils perfectly.\"",
+        "author": "Carlos Rodriguez",
+        "position": "Executive Chef, Bogotá"
+      },
+      "two": {
+        "text": "\"Finally, a provider that guarantees zero chemicals. The flavor profile is cleaner and our customers love it.\"",
+        "author": "Maria Valencia",
+        "position": "Owner, Sabor Natural"
+      },
+      "three": {
+        "text": "\"Consistency is key in our industrial processing lines. Ajopel delivers the exact size and quality we need, in every shipment.\"",
+        "author": "Felipe Santos",
+        "position": "Operations Manager"
+      }
+    }
+  },
+  "Faq": {
+    "badge": "Support",
+    "title": "Frequently Asked Questions",
+    "items": {
+      "freshness": {
+        "q": "How long does peeled garlic stay fresh?",
+        "a": "Our vacuum packaging ensures freshness for up to 45 days when refrigerated between 2°C and 4°C. Once opened, we recommend using it within 5-7 days for optimal flavor."
+      },
+      "chemicals": {
+        "q": "Do you use preservatives or chemicals?",
+        "a": "Absolutely not. Our pneumatic peeling process uses only high-pressure air. We guarantee 100% natural garlic with no additives, whiteners, or chemical preservatives."
+      },
+      "minimum": {
+        "q": "What is the minimum wholesale order quantity?",
+        "a": "We serve businesses of all sizes. Our wholesale minimum starts at 20kg. For custom industrial orders or scheduled deliveries, please contact our sales team."
+      },
+      "samples": {
+        "q": "Do you offer samples for restaurants?",
+        "a": "Yes! We trust our quality. Qualified restaurants and industrial partners can request a free sample kit to test our product in their own kitchens."
+      }
+    }
+  },
+  "FinalCTA": {
+    "title": "Ready to optimize your kitchen?",
+    "description": "Receive premium peeled garlic directly at your door. Save time, reduce waste, and improve consistency.",
+    "ctaPrimary": "Request a Quote",
+    "ctaSecondary": "Contact Sales"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "Hero": {
+    "badge": "Garantía 100% Natural",
+    "titleMain": "Pioneros en el Pelado",
+    "titleAccent": " en Colombia",
+    "titleEnd": "de Ajo",
+    "description": "Optimice sus costos operativos y garantice el máximo sabor con **Ajopel Colombia**. Tecnología Food-Tech que asegura higiene total y cero desperdicio.",
+    "ctaPrimary": "Solicitar Cotización",
+    "ctaSecondary": "Ver Video",
+    "socialProof": "Confianza de {count}+ cocinas industriales",
+    "techLabel": "Tecnología",
+    "techValue": " en Pelado de Ajo"
+  },
+  "FeaturesBar": {
+    "savings": "Ahorre 30% en <br/>Costos Operativos",
+    "delivery": "Entregas en <br/>24-48 Horas",
+    "quality": "Calidad <br/>Garantizada"
+  },
+  "Promise": {
+    "badge": "Nuestra Promesa",
+    "title": "\"No entregamos solo ajo. Entregamos <important>eficiencia</important> y <important>consistencia</important> para que su cocina nunca se detenga.\"",
+    "description": "Olvídese del desperdicio y las horas hombre invertidas en pelar. Nosotros nos encargamos de la materia prima para que usted se enfoque en crear experiencias culinarias.",
+    "cta": "Conozca nuestra historia"
+  },
+  "Differentiators": {
+    "title": "Diferenciadores Clave",
+    "subtitle": "¿Por qué las grandes marcas eligen Ajopel? Fusionamos la naturaleza con tecnología avanzada.",
+    "cta": "Solicitar Ficha Técnica",
+    "cards": {
+      "clean": {
+        "title": "Cero Químicos",
+        "desc": "Ajo puro sin aditivos químicos ni conservantes. Tal como la naturaleza lo dispuso."
+      },
+      "tech": {
+        "title": "Tecnología Limpia",
+        "desc": "Tecnología avanzada de pelado neumático que asegura cero contacto y máximos estándares de higiene."
+      },
+      "fresh": {
+        "title": "Frescura Garantizada",
+        "desc": "Del campo a su cocina en tiempo récord, conservando el sabor y el valor nutricional intactos."
+      }
+    }
+  },
+  "Process": {
+    "badge": "Transparencia Total",
+    "title": "Nuestro Proceso de Pelado",
+    "description": "Una técnica revolucionaria que utiliza aire a alta presión en lugar de agua, preservando los aceites esenciales del ajo.",
+    "cta": "Decida Cotizar el Producto",
+    "steps": {
+      "selection": {
+        "title": "1. Selección Rigurosa",
+        "desc": "Solo los mejores bulbos entran a nuestra planta."
+      },
+      "injection": {
+        "title": "2. Inyección de Aire",
+        "desc": "Separamos la cáscara usando aire comprimido filtrado."
+      },
+      "quality": {
+        "title": "3. Control de Calidad",
+        "desc": "Inspección visual para asegurar dientes perfectos."
+      },
+      "packaging": {
+        "title": "4. Empacado al Vacío",
+        "desc": "Sellado inmediato para máxima frescura."
+      }
+    }
+  },
+  "CTA": {
+    "title": "La elección de los mejores chefs",
+    "description": "Calidad que se siente en cada plato. Consistente, limpio y listo para su cocina.",
+    "button": "Ver Productos"
+  },
+  "Products": {
+    "badge": "Nuestros Productos",
+    "title": "Soluciones para su Cocina",
+    "catalog": "Ver catálogo completo",
+    "mainProduct": {
+      "tag": "Más Vendido",
+      "name": "Ajo Pelado Entero",
+      "desc": "Ideal para todo tipo de preparaciones.",
+      "button": "Cotizar Ahora"
+    },
+    "culinary": {
+      "title": "Grado Culinario",
+      "desc": "Perfecto para cocinas de alto volumen que requieren tamaño consistente.",
+      "action": "Solicitar muestra"
+    },
+    "paste": {
+      "title": "Ajo Pelado"
+    },
+    "sustainability": {
+      "title": "Sostenibilidad",
+      "desc": "Ciclo de producción cero residuos"
+    }
+  },
+  "Testimonials": {
+    "badge": "Testimonios",
+    "title": "Con la Confianza de Líderes Culinarios",
+    "subtitle": "Únase a cientos de restaurantes y procesadores de alimentos que confían en Ajopel para sus necesidades de ajo.",
+    "items": {
+      "one": {
+        "text": "\"Desde que cambiamos a Ajopel, la eficiencia de nuestra cocina ha aumentado un 30%. El pelado neumático preserva los aceites naturales perfectamente.\"",
+        "author": "Carlos Rodriguez",
+        "position": "Chef Ejecutivo, Bogotá"
+      },
+      "two": {
+        "text": "\"Finalmente, un proveedor que garantiza cero químicos. El perfil de sabor es más limpio y a nuestros clientes les encanta.\"",
+        "author": "Maria Valencia",
+        "position": "Propietaria, Sabor Natural"
+      },
+      "three": {
+        "text": "\"La consistencia es clave en nuestras líneas de procesamiento industrial. Ajopel entrega el tamaño y calidad exactos que necesitamos, en cada envío.\"",
+        "author": "Felipe Santos",
+        "position": "Gerente de Operaciones"
+      }
+    }
+  },
+  "Faq": {
+    "badge": "Soporte",
+    "title": "Preguntas Frecuentes",
+    "items": {
+      "freshness": {
+        "q": "¿Cuánto tiempo se mantiene fresco el ajo pelado?",
+        "a": "Nuestro empaque al vacío asegura frescura hasta por 45 días refrigerado entre 2°C y 4°C. Una vez abierto, recomendamos usarlo dentro de 5-7 días para un sabor óptimo."
+      },
+      "chemicals": {
+        "q": "¿Utilizan conservantes o productos químicos?",
+        "a": "Absolutamente no. Nuestro proceso de pelado neumático usa solo aire a alta presión. Garantizamos ajo 100% natural sin aditivos, blanqueadores ni conservantes químicos."
+      },
+      "minimum": {
+        "q": "¿Cuál es la cantidad mínima de pedido al por mayor?",
+        "a": "Atendemos negocios de todos los tamaños. Nuestro mínimo al por mayor comienza en 20kg. Para pedidos industriales personalizados o entregas programadas, contacte a nuestro equipo de ventas."
+      },
+      "samples": {
+        "q": "¿Ofrecen muestras para restaurantes?",
+        "a": "¡Sí! Confiamos en nuestra calidad. Restaurantes y socios industriales calificados pueden solicitar un kit de muestra gratuito para probar nuestro producto en sus propias cocinas."
+      }
+    }
+  },
+  "FinalCTA": {
+    "title": "¿Listo para optimizar su cocina?",
+    "description": "Reciba ajo pelado premium directamente en su puerta. Ahorre tiempo, reduzca desperdicios y mejore la consistencia.",
+    "ctaPrimary": "Solicitar Cotización",
+    "ctaSecondary": "Contactar Ventas"
+  }
+}

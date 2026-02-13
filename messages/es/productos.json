@@ -1,0 +1,93 @@
+{
+  "ProductsHero": {
+    "badge": "Calidad Industrial",
+    "title": "Catálogo de Productos",
+    "description": "Soluciones de ajo pelado neumáticamente con los más altos estándares de higiene y conservación para la industria alimentaria."
+  },
+  "ProductsGrid": {
+    "bulk": {
+      "title": "AJO A GRANEL",
+      "tag": "Línea Industrial",
+      "badge": "Alta Demanda",
+      "ingredients": "Ajo pelado importado",
+      "format": "Bolsatina según solicitud",
+      "weight": "Lo solicitado",
+      "variety": "Morado y blanco",
+      "cta": "Cotizar Granel"
+    },
+    "packed": {
+      "title": "AJO EMPACADO",
+      "tag": "Según Peso Solicitado",
+      "badge": "Personalizable",
+      "ingredients": "Ajo pelado importado",
+      "format": "Con o sin vacío",
+      "weight": "Kilo o gramaje solicitado",
+      "variety": "Morado y blanco",
+      "cta": "Cotizar Empacado"
+    },
+    "labels": {
+      "ingredients": "Ingredientes",
+      "format": "Formato",
+      "weight": "Peso Neto",
+      "variety": "Variedad"
+    }
+  },
+  "ProductSpecs": {
+    "coldChain": {
+      "title": "Cadena de Frío",
+      "desc": "Mantener refrigerado entre 0°C y 4°C para máxima frescura."
+    },
+    "certification": {
+      "title": "Certificación",
+      "desc": "Procesos estandarizados BPM y cumplimiento sanitario INVIMA."
+    },
+    "delivery": {
+      "title": "Distribución",
+      "desc": "Cobertura nacional con vehículos refrigerados propios."
+    }
+  },
+  "ProductReviews": {
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Confianza que impulsa la industria gastronómica",
+    "items": {
+      "one": {
+        "text": "\"La calidad del ajo a granel de Ajopel ha optimizado nuestra línea de producción de salsas significativamente.\"",
+        "author": "Juan Pérez",
+        "position": "Gerente de Planta, Salsas del Valle"
+      },
+      "two": {
+        "text": "\"Excelente presentación y puntualidad. El ajo empacado al vacío nos ahorra horas de trabajo manual.\"",
+        "author": "Maria Rodriguez",
+        "position": "Jefa de Compras, Catering Bogotá"
+      },
+      "three": {
+        "text": "\"Producto limpio y fresco. La opción de gramaje personalizado es ideal para nuestro modelo de negocio.\"",
+        "author": "Carlos López",
+        "position": "Director, Alimentos Express"
+      }
+    }
+  },
+  "ProductFaq": {
+    "title": "Preguntas Frecuentes",
+    "questions": {
+      "minOrder": {
+        "q": "¿Cuál es el pedido mínimo para ajo a granel?",
+        "a": "Atendemos pedidos industriales desde 50kg para referencias a granel. Para empacado específico, contáctenos para evaluar su necesidad."
+      },
+      "delivery": {
+        "q": "¿Realizan entregas a nivel nacional?",
+        "a": "Sí, contamos con logística especializada para garantizar la cadena de frío en todo el territorio colombiano."
+      },
+      "shelfLife": {
+        "q": "¿Qué vida útil tiene el producto?",
+        "a": "Bajo condiciones óptimas de refrigeración (0°C - 4°C), nuestro ajo pelado y empacado al vacío tiene una vida útil de hasta 45 días."
+      }
+    }
+  },
+  "ProductsCTA": {
+    "title": "¿Listo para optimizar su producción?",
+    "description": "Solicite una cotización personalizada hoy mismo y descubra por qué somos líderes en el mercado.",
+    "ctaPrimary": "Cotizar Ahora",
+    "ctaSecondary": "Contactar Ventas"
+  }
+}

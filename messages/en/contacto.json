@@ -1,0 +1,58 @@
+{
+  "Contact": {
+    "hero": {
+      "badge": "Contact Us",
+      "titleMain": "Let's Talk",
+      "titleAccent": "Business",
+      "description": "Industrial garlic peeling solutions with cutting-edge technology. We are ready to scale your production.",
+      "whatsapp": "Chat on WhatsApp"
+    },
+    "info": {
+      "location": "Cundinamarca Bogotá",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email"
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "Fill out the form below and our B2B team will get in touch shortly.",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "company": "Company Name",
+      "companyPlaceholder": "Food Industries Inc.",
+      "email": "Email Address",
+      "emailPlaceholder": "john@company.com",
+      "message": "Message",
+      "messagePlaceholder": "Hi, I'm interested in a quote for...",
+      "submit": "Send Message"
+    }
+  },
+  "ContactBenefits": {
+    "badge": "B2B Benefits",
+    "title": "Why contact Ajopel",
+    "features": {
+      "tech": {
+        "title": "Pneumatic Technology",
+        "desc": "We implement pneumatic peeling processes that guarantee zero product damage and maximum hygiene, significantly reducing waste."
+      },
+      "speed": {
+        "title": "Agile Response",
+        "desc": "Our commercial team understands the food industry's urgency. Quotes in less than 24 hours for wholesale orders."
+      },
+      "quality": {
+        "title": "Certified Quality",
+        "desc": "Rigorous quality standards that comply with health regulations, ideal for exports and demanding chains."
+      }
+    }
+  },
+  "ContactSuccess": {
+    "badge": "Success Stories",
+    "title": "What our partners say",
+    "description": "We have transformed the production lines of dozens of companies in Colombia.",
+    "moreStories": "See more stories",
+    "testimonial": {
+      "text": "\"Contacting Ajopel was the turning point for our sauce plant. The quality of the peeled garlic is superior and the customer service is impeccable.\"",
+      "author": "Carlos Ruiz",
+      "position": "Production Manager, Salsas del Valle"
+    }
+  }
+}

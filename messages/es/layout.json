@@ -1,0 +1,40 @@
+{
+  
+   "Metadata": {
+  "title": "AjopelColombia | Producción y Distribución de Ajo Pelado en Colombia",
+  "description": "AjopelColombia es una empresa colombiana especializada en la producción, procesamiento y distribución de ajo pelado de alta calidad. Ofrecemos productos frescos, higiénicos y listos para usar, ideales para restaurantes, industrias alimentarias y comercios a nivel nacional.",
+  "keywords": "ajo pelado, ajo pelado en Colombia, proveedor de ajo, ajo procesado, ajo fresco, ajo para restaurantes, distribución de ajo, industria alimentaria Colombia, venta de ajo al por mayor"
+},
+  "Index": {
+    "boilerplateName": "Zipaquira Digital",
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact": "Contácto",
+    "about": "Nosotros",
+    "products": "Productos",
+    "about-me": "Soy yo",
+    "cotizar": "Solicitar Cotización",
+    "title": "Menu",
+    "quoteButton": "Solicitar Cotización"
+  },
+ 
+  "Footer": {
+    "description": "Fundada en el año 2012. Una empresa de Raigambre familiar y distinguida por la calidad y servicio en nuestros productos.",
+    "companyTitle": "Empresa",
+    "productsTitle": "Productos",
+    "contactTitle": "Contacto",
+    "links": {
+      "about": "Sobre Nosotros",
+      "process": "Nuestro Proceso",
+      "peeled": "Pelado Entero",
+      "paste": "Ajo Pelado Agranel",
+      "custom": "Pedidos Personalizados"
+    },
+    "legal": {
+      "rights": "© 2026 Ajopel Colombia. Todos los derechos reservados.",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+            "diseño": "Diseño y Desarrollo By zipaquiradigital"
+    }
+  }
+}

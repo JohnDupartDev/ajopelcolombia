@@ -1,0 +1,161 @@
+{
+  "AboutHero": {
+    "badge": "Food-Tech Leaders",
+    "titleMain": "Revolutionizing",
+    "titleAccent": "garlic peeling",
+    "titleEnd": "in Colombia.",
+    "description": "We are pioneers in pneumatic processing, a technology that eliminates the use of water and chemicals. We guarantee purity, hygiene, and cutting-edge standards for the modern food industry.",
+    "featureWater": "0% Water",
+    "featureChemicals": "0% Chemicals",
+    "featureNatural": "100% Natural",
+    "efficiencyLabel": "Efficiency",
+    "efficiencyValue": "+40% Speed"
+  },
+  "MissionVision": {
+    "missionTitle": "Our Mission",
+    "missionDesc": "To transform the garlic industry in Colombia through sustainable technologies that guarantee food safety, optimize our clients' resources, and respect the environment by eliminating water waste in processing.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To be recognized by 2030 as the Latin American benchmark in Food-Tech technology for alliaceous processing, leading the shift toward zero-waste industrial practices and expanding our innovation footprint continent-wide."
+  },
+  "WhyChoose": {
+    "title": "Why choose Ajopel?",
+    "subtitle": "Key differentiators that drive profitability and quality for your business.",
+    "features": {
+      "sustainability": {
+        "title": "Sustainability",
+        "desc": "100% dry processes that do not contaminate water sources."
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "desc": "Optimized delivery times for your production chain."
+      },
+      "quality": {
+        "title": "Certified Quality",
+        "desc": "Strict compliance with INVIMA regulations and HACCP standards."
+      },
+      "support": {
+        "title": "Local Support",
+        "desc": "Direct and personalized attention throughout the national territory."
+      }
+    }
+  },
+  "TechProcess": {
+    "title": "Our Food-Tech Process",
+    "subtitle": "Cutting-edge technology designed to maintain product integrity and flavor.",
+    "steps": {
+      "selection": {
+        "title": "Selection",
+        "desc": "Premium harvest from the best Colombian fields."
+      },
+      "peeling": {
+        "title": "Pneumatic Peeling",
+        "desc": "Pressurized air with no physical contact or water."
+      },
+      "quality": {
+        "title": "Quality Control",
+        "desc": "Rigorous tooth-by-tooth optical inspection."
+      },
+      "packing": {
+        "title": "Packaging",
+        "desc": "Vacuum sealed for maximum freshness and shelf life."
+      }
+    }
+  },
+  "QualityCommitment": {
+    "badge": "Total Guarantee",
+    "title": "Demanding with quality",
+    "description": "Our obsession with excellence defines us. Every processed garlic clove reflects our unwavering commitment to hygiene, health, and purity.",
+    "cards": {
+      "manufacturing": {
+        "title": "Exclusive Manufacturing",
+        "desc": "Absolute respect for our clients and raw materials. We maintain total hygiene and rigorous quality standards at every stage."
+      },
+      "health": {
+        "title": "Quality and Health",
+        "desc": "Optimal sanitary facilities designed to guarantee healthy products, free of chemical additives."
+      },
+      "certification": {
+        "title": "IFS Certification",
+        "desc": "Quality and hygiene management system backed by external audits based on transparency.",
+        "status": "Active Audit"
+      },
+      "premium": {
+        "title": "Premium Products",
+        "desc": "Strict selection to preserve flavor, aroma, and pungency. Special focus on high-quality purple garlic."
+      },
+      "suppliers": {
+        "title": "Trusted Suppliers",
+        "desc": "Rigorous supplier selection and regular audits to ensure excellence from the crop."
+      }
+    }
+  },
+  "Impact": {
+    "title": "Our Impact",
+    "history": {
+      "tag": "Experience",
+      "value": "20+",
+      "unit": "Years",
+      "desc": "Leading the market with constant innovation and commitment to the Colombian agricultural sector."
+    },
+    "capacity": {
+      "tag": "Capacity",
+      "value": "500+",
+      "desc": "Tons processed annually"
+    },
+    "purity": {
+      "value": "100%",
+      "desc": "No chemicals or additives. Just pure garlic."
+    },
+    "trust": {
+      "title": "Total Trust",
+      "desc": "Preferred suppliers for major restaurant chains and food producers."
+    }
+  },
+  "Team": {
+    "title": "Meet the Team",
+    "members": {
+      "director": {
+        "name": "Carlos Rodriguez",
+        "role": "General Director"
+      },
+      "operations": {
+        "name": "Ana María Diaz",
+        "role": "Operations Manager"
+      },
+      "plant": {
+        "name": "Eng. Luis Torres",
+        "role": "Plant Manager"
+      },
+      "quality": {
+        "name": "Dr. Sofia Mendez",
+        "role": "Quality Control"
+      }
+    }
+  },
+  "Gallery": {
+    "title": "Innovation Gallery",
+    "items": {
+      "plant": {
+        "title": "Processing Plant",
+        "desc": "Technological infrastructure in Bogotá D.C."
+      },
+      "product": {
+        "title": "Finished Product"
+      },
+      "lab": {
+        "title": "AjopelColombia Quality"
+      },
+      "fleet": {
+        "title": "Distribution Fleet",
+        "desc": "Refrigerated logistics with national coverage"
+      }
+    }
+  },
+  "AboutFooter": {
+    "badge": "Join the Food-Tech revolution",
+    "title": "Elevating the food industry standard, one garlic clove at a time.",
+    "description": "Discover how our pneumatic peeling technology and unwavering commitment to hygiene can optimize your supply chain today.",
+    "ctaPrimary": "Contact Us",
+    "ctaSecondary": "See Products"
+  }
+}
