@@ -5,16 +5,15 @@ import { useTranslations } from 'next-intl';
 // Si usas el sistema de navegación de next-intl, es mejor importar su Link
 import Link from 'next/link';
 import LanguageSwitcher from '../Language/LanguageSwitcher';
-import { Instagram, Linkedin, Twitter, X } from "lucide-react";
+import { Instagram, Facebook, X } from "lucide-react";
 
 
 export default function MobileMenu({ closeMenu }: { closeMenu: () => void }) {
   // Usamos el namespace "Menu" para mantener el JSON organizado
   const t = useTranslations("Index");
 const socialLinks = {
-    linkedin: "https://linkedin.com/company/altum-ia",
-    twitter: "https://twitter.com/altumia",
-    instagram: "https://instagram.com/altumia.design"
+    Facebook: "https://www.facebook.com/Ajopel",
+    instagram: "https://www.instagram.com/ajopelcolombia"
   };
   return (
     <motion.div
@@ -54,12 +53,10 @@ const socialLinks = {
 
         <div className="flex flex-col gap-4 items-center">
               <div className="flex gap-8 w-full justify-center">
-                <Link href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="w-5 h-5 text-slate-400 hover:text-altum-violeta transition-all duration-300 transform hover:scale-110" />
+                <Link href={socialLinks.Facebook} target="_blank" rel="noopener noreferrer">
+                  <Facebook className="w-5 h-5 text-slate-400 hover:text-altum-violeta transition-all duration-300 transform hover:scale-110" />
                 </Link>
-                <Link href={socialLinks.twitter} target="_blank" rel="noopener noreferrer">
-                  <Twitter className="w-5 h-5 text-slate-400 hover:text-altum-aqua transition-all duration-300 transform hover:scale-110" />
-                </Link>
+               
                 <Link href={socialLinks.instagram} target="_blank" rel="noopener noreferrer">
                   <Instagram className="w-5 h-5 text-slate-400 hover:text-altum-violeta transition-all duration-300 transform hover:scale-110" />
                 </Link>

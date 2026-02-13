@@ -91,7 +91,7 @@ const ContactHero = () => {
 
             {/* Email */}
             <a 
-              href="mailto:ventas@ajopel.co"
+              href="mailto:ajopel@hotmail.com"
               className="bg-gray-50 p-6 rounded-3xl border border-gray-100 flex flex-col justify-between h-40 hover:shadow-md transition-all group"
             >
               <div className="w-10 h-10 rounded-full bg-morado/10 flex items-center justify-center text-morado group-hover:bg-morado group-hover:text-white transition-colors">
@@ -99,7 +99,7 @@ const ContactHero = () => {
               </div>
               <div>
                 <p className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1">{t('info.emailLabel')}</p>
-                <p className="text-lg font-black text-black truncate">ventas@ajopel.co</p>
+                <p className="text-lg font-black text-black truncate">ajopel@hotmail.com</p>
               </div>
             </a>
           </div>

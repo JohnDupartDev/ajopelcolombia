@@ -44,7 +44,7 @@ const ContactSuccess = () => {
                 {t('description')}
               </p>
               <Link 
-                href={"/nosotros" as any} 
+                href={"https://www.google.com/search?q=ajooel&rlz=1C5CHFA_enCO1121CO1121&oq=ajooel&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTILCAEQLhgKGA0YgAQyFAgCEC4YChgNGK8BGMcBGIAEGI4FMgkIAxAAGA0YgAQyCQgEEAAYDRiABDILCAUQABgKGA0YgAQyCwgGEAAYChgNGIAEMgYIBxBFGDzSAQgxMjM1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x8e3f85a01bb9d847:0xfacf987d2161897,1,,,," as any} 
                 className="inline-flex items-center text-white font-bold hover:gap-3 transition-all gap-2 group"
               >
                 {t('moreStories')}
