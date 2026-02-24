@@ -95,7 +95,7 @@ const Footer = () => {
             <div className="flex flex-col gap-4 text-sm text-gray-500">
               <div className="flex items-start gap-3">
                 <MapPin size={18} className="text-morado shrink-0" />
-                <p>Calle 165a # 54c – 11 <br /> Bogotá, Colombia</p>
+                <p>Calle 165A 54c-17 <br /> Bogotá, Colombia</p>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-morado shrink-0" />
@@ -103,7 +103,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-morado shrink-0" />
-                <a className="hover:text-morado transition-colors" href="tel:+573152024385">3152024385 – 3188383172</a>
+                <a className="hover:text-morado transition-colors" href="tel:+573152024385">3152024385 </a>
               </div>
             </div>
           </div>

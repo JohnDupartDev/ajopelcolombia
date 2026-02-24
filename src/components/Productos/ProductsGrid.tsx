@@ -51,7 +51,7 @@ const ProductsGrid = () => {
             <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden shadow-sm">
               <div 
                 className="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" 
-                style={{ backgroundImage: "url('/images/ajopelado.jpg')" }}
+                style={{ backgroundImage: "url('/images/ajopelado-f.jpg')" }}
               />
               <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-4 py-1.5 rounded-full text-[10px] font-black text-morado uppercase shadow-sm">
                 {t('bulk.badge')}

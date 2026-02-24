@@ -62,7 +62,7 @@ const ProductsCTA = () => {
             
             {/* Botón Secundario - WhatsApp */}
             <a 
-              href={whatsappUrlSecondary}
+              href="/contacto"
               target="_blank"
               rel="noopener noreferrer"
               className="h-14 px-10 rounded-2xl bg-transparent border-2 border-white/30 text-white font-bold hover:bg-white/10 transition-all w-full md:w-auto flex items-center justify-center gap-2 active:scale-95"

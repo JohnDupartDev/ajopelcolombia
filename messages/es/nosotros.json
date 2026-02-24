@@ -112,26 +112,22 @@
     }
   },
   "Team": {
-    "title": "Conozca al Equipo",
+    "title": "Liderazgo Ajopel",
+    "badge": "Nuestro Equipo",
     "members": {
       "director": {
-        "name": "Carlos Rodriguez",
-        "role": "Director General"
-      },
-      "operations": {
-        "name": "Ana María Diaz",
-        "role": "Gerente de Operaciones"
-      },
-      "plant": {
-        "name": "Ing. Luis Torres",
-        "role": "Jefe de Planta"
-      },
-      "quality": {
-        "name": "Dra. Sofia Mendez",
-        "role": "Control de Calidad"
+        "name": "Marley Cárdenas",
+        "role": "Directora General",
+        "label": "Directora",
+        "subLabel": "General",
+        "description": "Nuestra visión es transformar el procesamiento del ajo en Colombia a través de tecnología y un compromiso inquebrantable con la calidad alimentaria.",
+        "values": {
+          "safety": "Inocuidad Total",
+          "contact": "Contacto Directo"
+        }
       }
     }
-  },
+},
   "Gallery": {
     "title": "Galería de Innovación",
     "items": {
@@ -145,11 +141,25 @@
       "lab": {
         "title": "Calidad AjopelColombia"
       },
+      "eco": {
+        "title": "Sostenibilidad"
+      },
+      "storage": {
+        "title": "Almacenamiento"
+      },
       "fleet": {
-        "title": "Flota de Distribución",
+        "title": "Planta Procesamiento",
         "desc": "Logística refrigerada con cobertura nacional"
+      },
+      "team": {
+        "title": "Ajo pelado en produción",
+        "desc": "Expertos en inocuidad alimentaria"
+      },
+      "tech": {
+        "title": "Planta"
       }
     }
+  
   },
   "AboutFooter": {
     "badge": "Únase a la revolución Food-Tech",

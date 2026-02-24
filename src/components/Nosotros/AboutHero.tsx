@@ -69,7 +69,7 @@ const AboutHero = () => {
               <div className="absolute inset-0 rounded-[100px] overflow-hidden shadow-2xl shadow-morado/20 rotate-3 transition-transform hover:rotate-0 duration-700 ease-out border-8 border-white">
                 <div 
                   className="w-full h-full bg-gray-200 bg-cover bg-center scale-110" 
-                  style={{ backgroundImage: "url('/images/ajopelado.jpg')" }}
+                  style={{ backgroundImage: "url('/images/ajopelado-f.jpg')" }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-morado/30 to-transparent mix-blend-multiply" />
               </div>

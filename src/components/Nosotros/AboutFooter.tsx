@@ -82,7 +82,7 @@ const AboutFooter = () => {
           </a>
 
           <a 
-            href={whatsappUrlSecondary}
+            href="/productos"
             target="_blank"
             rel="noopener noreferrer"
             className="h-14 px-10 rounded-full bg-transparent hover:bg-white/10 border-2 border-white/20 text-white font-bold text-base transition-all flex items-center gap-2 active:scale-95 justify-center w-full sm:w-auto"

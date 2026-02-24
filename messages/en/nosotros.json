@@ -112,44 +112,53 @@
     }
   },
   "Team": {
-    "title": "Meet the Team",
+    "title": "Ajopel Leadership",
+    "badge": "Our Team",
     "members": {
       "director": {
-        "name": "Carlos Rodriguez",
-        "role": "General Director"
-      },
-      "operations": {
-        "name": "Ana María Diaz",
-        "role": "Operations Manager"
-      },
-      "plant": {
-        "name": "Eng. Luis Torres",
-        "role": "Plant Manager"
-      },
-      "quality": {
-        "name": "Dr. Sofia Mendez",
-        "role": "Quality Control"
+        "name": "Marley Cárdenas",
+        "role": "General Director",
+        "label": "General",
+        "subLabel": "Director",
+        "description": "Our vision is to transform garlic processing in Colombia through technology and an unwavering commitment to food quality.",
+        "values": {
+          "safety": "Total Safety",
+          "contact": "Direct Contact"
+        }
       }
     }
   },
   "Gallery": {
-    "title": "Innovation Gallery",
-    "items": {
-      "plant": {
-        "title": "Processing Plant",
-        "desc": "Technological infrastructure in Bogotá D.C."
-      },
-      "product": {
-        "title": "Finished Product"
-      },
-      "lab": {
-        "title": "AjopelColombia Quality"
-      },
-      "fleet": {
-        "title": "Distribution Fleet",
-        "desc": "Refrigerated logistics with national coverage"
-      }
+  "title": "Innovation Gallery",
+  "items": {
+    "plant": {
+      "title": "Processing Plant",
+      "desc": "Technological infrastructure in Bogotá D.C."
+    },
+    "product": {
+      "title": "Finished Product"
+    },
+    "lab": {
+      "title": "AjopelColombia Quality"
+    },
+    "eco": {
+      "title": "Sustainability"
+    },
+    "storage": {
+      "title": "Storage"
+    },
+    "fleet": {
+      "title": "Processing Plant",
+      "desc": "Refrigerated logistics with nationwide coverage"
+    },
+    "team": {
+      "title": "Garlic Peeling in Production",
+      "desc": "Experts in food safety"
+    },
+    "tech": {
+      "title": "Plant"
     }
+  }
   },
   "AboutFooter": {
     "badge": "Join the Food-Tech revolution",
