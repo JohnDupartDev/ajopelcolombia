@@ -9,12 +9,14 @@ import { Instagram, Facebook, X } from "lucide-react";
 
 
 export default function MobileMenu({ closeMenu }: { closeMenu: () => void }) {
-  // Usamos el namespace "Menu" para mantener el JSON organizado
+  // Usamos el namespace "Index" para mantener el JSON organizado
   const t = useTranslations("Index");
-const socialLinks = {
+
+  const socialLinks = {
     Facebook: "https://www.facebook.com/Ajopel",
     instagram: "https://www.instagram.com/ajopelcolombia"
   };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -24,17 +26,19 @@ const socialLinks = {
     >
       <div className="flex justify-between items-center mb-12">
         <h2 className="text-text-main text-xl font-bold">{t('title')}</h2>
-       <button 
-  onClick={closeMenu} 
-  className="bg-slate-100 hover:bg-slate-200 text-text-main p-2 rounded-full transition-colors duration-200 flex items-center justify-center" 
-  aria-label="Close menu"
->
-  <X className="w-6 h-6" />
-</button>
+        
+        {/* Agregamos aria-label dinámico para el botón de cerrar */}
+        <button 
+          onClick={closeMenu} 
+          className="bg-slate-100 hover:bg-slate-200 text-text-main p-2 rounded-full transition-colors duration-200 flex items-center justify-center" 
+          aria-label={t('closeMenu') || "Cerrar menú"}
+        >
+          <X className="w-6 h-6" />
+        </button>
       </div>
 
       <nav className="flex flex-col gap-6 text-center">
-        {/* Usamos t('key') para cada enlace */}
+        {/* Enlaces principales */}
         <Link href="/" className="text-2xl font-bold text-primary border-b border-primary/10 pb-2" onClick={closeMenu}>
           {t('home')}
         </Link>
@@ -47,23 +51,40 @@ const socialLinks = {
         <Link href="/contacto" className="text-2xl font-medium text-text-main" onClick={closeMenu}>
           {t('contact')}
         </Link>
+
         <div className="flex justify-center w-full">
           <LanguageSwitcher/>
         </div>
 
         <div className="flex flex-col gap-4 items-center">
-              <div className="flex gap-8 w-full justify-center">
-                <Link href={socialLinks.Facebook} target="_blank" rel="noopener noreferrer">
-                  <Facebook className="w-5 h-5 text-slate-400 hover:text-altum-violeta transition-all duration-300 transform hover:scale-110" />
-                </Link>
-               
-                <Link href={socialLinks.instagram} target="_blank" rel="noopener noreferrer">
-                  <Instagram className="w-5 h-5 text-slate-400 hover:text-altum-violeta transition-all duration-300 transform hover:scale-110" />
-                </Link>
-              </div>
-            </div>
+          <div className="flex gap-8 w-full justify-center">
+            {/* Agregamos aria-label a los enlaces sociales para lectores de pantalla */}
+            <Link 
+              href={socialLinks.Facebook} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="Visitar nuestra página de Facebook"
+            >
+              <Facebook className="w-5 h-5 text-slate-400 hover:text-altum-violeta transition-all duration-300 transform hover:scale-110" />
+            </Link>
+            
+            <Link 
+              href={socialLinks.instagram} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="Visitar nuestro perfil de Instagram"
+            >
+              <Instagram className="w-5 h-5 text-slate-400 hover:text-altum-violeta transition-all duration-300 transform hover:scale-110" />
+            </Link>
+          </div>
+        </div>
+
         <div className="mt-8">
-           <button className="w-full rounded-full py-4 bg-morado text-white font-bold shadow-lg">
+           {/* El botón de cotización ya tiene texto adentro ({t('quoteButton')}), pero aseguramos que sea un botón claro */}
+           <button 
+             className="w-full rounded-full py-4 bg-morado text-white font-bold shadow-lg"
+             type="button"
+           >
              {t('quoteButton')}
            </button>
         </div>

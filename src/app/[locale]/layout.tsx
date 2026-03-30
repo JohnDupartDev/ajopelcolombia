@@ -8,8 +8,7 @@ import ClientWrapper from '@/components/ClientWrapper';
 import { Audiowide, Pacifico } from 'next/font/google';
 import '../globals.css';
 
-// runtime edge para Cloudflare
-
+// Fuentes (Puedes ajustarlas según el branding de Ajopel)
 const audiowide = Audiowide({
   subsets: ['latin'],
   variable: '--font-audiowide',
@@ -30,54 +29,49 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   if (!['es', 'en'].includes(locale)) notFound();
 
-  
- const organizationSchema = {
+  // Schema estructurado para Ajopel Colombia
+  const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness", 
-    "@id": "https://zipaquiradigital.com/#organization",
-    "name": "Zipaquirá Digital",
-    "url": "https://zipaquiradigital.com",
-    "logo": "https://zipaquiradigital.com/logo.png",
-    "image": "https://zipaquiradigital.com/og-image.jpg",
-    "description": "Agencia de desarrollo web y marketing digital en Zipaquirá y Colombia.",
-    "telephone": "+573195301551", 
+    "@type": "WholesaleStore", // Cambiado a WholesaleStore por su naturaleza B2B
+    "@id": "https://ajopelcolombia.com/#organization",
+    "name": "Ajopel Colombia",
+    "url": "https://ajopelcolombia.com",
+    "logo": "https://ajopelcolombia.com/logo.png",
+    "image": "https://ajopelcolombia.com/og-image.jpg",
+    "description": "Empresa líder en producción y comercialización de ajo pelado de alta calidad en Colombia, USA y Europa.",
+    "telephone": "+573152024385", 
     "priceRange": "$$", 
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Zipaquirá Centro", 
-      "addressLocality": "Zipaquirá",
+      "streetAddress": "Calle 165A 54c-17", 
+      "addressLocality": "Bogotá",
       "addressRegion": "Cundinamarca",
-      "postalCode": "250252",
+      "postalCode": "110111",
       "addressCountry": "CO"
     },
     "geo": { 
       "@type": "GeoCoordinates",
-      "latitude": 5.0226, 
-      "longitude": -74.0016
+      "latitude": 4.7454, 
+      "longitude": -74.0545
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
       ],
       "opens": "08:00",
       "closes": "18:00"
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+57-319-530-1551",
-      "contactType": "customer service",
-      "areaServed": "CO",
+      "telephone": "+57-315-202-4385",
+      "contactType": "sales",
+      "areaServed": ["CO", "US", "EU"],
       "availableLanguage": ["es", "en"]
     },
     "sameAs": [
-      "https://www.facebook.com/zipaquiradigital",
-      "https://www.instagram.com/zipaquiradigital",
-      "https://www.linkedin.com/company/zipaquir%C3%A1-digital"
+      "https://www.facebook.com/Ajopel",
+      "https://www.instagram.com/ajopelcolombia"
     ]
   };
 
@@ -93,14 +87,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
 
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-WLNSZFWN"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
+    
 
         <ClientWrapper locale={locale} messages={messages}>
           {children}
@@ -120,18 +107,20 @@ export const viewport: Viewport = {
 // Metadata
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
-  const metadataBase = new URL('https://zipaquiradigital.com');
+  const metadataBase = new URL('https://ajopelcolombia.com');
 
   return {
     metadataBase,
     title: {
-      default: locale === 'es' ? 'Zipaquirá Digital' : 'Zipaquirá Digital | English',
-      template: '%s | Zipaquirá Digital',
+      default: locale === 'es' 
+        ? 'Ajopel Colombia | Ajo Pelado de Alta Calidad' 
+        : 'Ajopel Colombia | High Quality Peeled Garlic',
+      template: '%s | Ajopel Colombia',
     },
     description:
       locale === 'es'
-        ? 'Portal informativo y tecnológico de Zipaquirá, Colombia.'
-        : 'Digital information and tech portal from Zipaquirá, Colombia.',
+        ? 'Proveedor de ajo pelado listo para usar. Soluciones para restaurantes y empresas en Colombia, USA y Europa.'
+        : 'Supplier of ready-to-use peeled garlic. Solutions for restaurants and businesses in Colombia, USA, and Europe.',
     icons: {
       icon: '/favicon.ico',
     },

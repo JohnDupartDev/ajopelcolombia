@@ -46,6 +46,7 @@ export default function Header() {
           <motion.button 
             whileTap={{ scale: 0.9 }}
             onClick={() => setNavbarOpen(true)}
+            aria-label="Abrir menú de navegación"
             className={`flex items-center justify-center size-12 rounded-2xl transition-colors ${
               sticky ? 'bg-morado text-white' : 'bg-gray-100 text-black'
             }`}

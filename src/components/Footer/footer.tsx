@@ -48,6 +48,7 @@ const Footer = () => {
                 href="https://www.facebook.com/Ajopel"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visitar nuestra página de Facebook"
               >
                 <Facebook size={20} />
               </a>
@@ -56,6 +57,7 @@ const Footer = () => {
                 href="https://www.instagram.com/ajopelcolombia"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visitar nuestro perfil de Instagram"
               >
                 <Instagram size={20} />
               </a>
@@ -83,6 +85,7 @@ const Footer = () => {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Contactar por WhatsApp para pedidos personalizados"
               >
                 {t('links.custom')}
               </a>
@@ -99,11 +102,23 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-morado shrink-0" />
-                <a className="hover:text-morado transition-colors" href="mailto:ajopel@hotmail.com">ajopel@hotmail.com</a>
+                <a 
+                  className="hover:text-morado transition-colors" 
+                  href="mailto:ajopel@hotmail.com"
+                  aria-label="Enviar un correo electrónico a ajopel@hotmail.com"
+                >
+                  ajopel@hotmail.com
+                </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-morado shrink-0" />
-                <a className="hover:text-morado transition-colors" href="tel:+573152024385">3152024385 </a>
+                <a 
+                  className="hover:text-morado transition-colors" 
+                  href="tel:+573152024385"
+                  aria-label="Llamar al número de teléfono +57 315 2024385"
+                >
+                  3152024385 
+                </a>
               </div>
             </div>
           </div>
@@ -121,6 +136,7 @@ const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-morado text-sm transition-colors"
+              aria-label="Visitar el sitio web del diseñador Zipaquirá Digital"
             >
               {t('legal.diseño')}
             </a>

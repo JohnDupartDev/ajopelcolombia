@@ -1,5 +1,3 @@
-// app/[locale]/page.tsx
-
 import { getTranslations, getLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
@@ -9,11 +7,11 @@ import HomeIndex from '@/components/pages/HomeIndex';
 export default async function HomePage() {
   const locale = await getLocale();
   
-const homeMessages = (await import(`../../../messages/${locale}/home.json`)).default;  
+  // Importación dinámica de los mensajes para Ajopel
+  const homeMessages = (await import(`../../../messages/${locale}/home.json`)).default;  
 
   const pagsMessages = {
     ...homeMessages,
-    
   };
 
   return (
@@ -31,19 +29,27 @@ export async function generateMetadata(): Promise<Metadata> {
     t = await getTranslations({ locale, namespace: 'Metadata' });
   } catch (error) {
     console.error('Error loading SEO translations:', error);
+    // Metadatos de respaldo específicos para Ajopel Colombia
     return {
-      title: 'Páginas web - tiendas en linea',
-      description: 'Creamos sitios web, tiendas en línea, aplicaciones de realidad aumentada y sistemas personalizados, codigos QR, paginas web, landingpage. Especialistas en desarrollo web con más de 5 años de experiencia.',
+      title: 'Ajopel Colombia | Ajo Pelado de Alta Calidad',
+      description: 'Líderes en la producción y distribución de ajo pelado fresco para restaurantes e industrias. Calidad garantizada, sin químicos y listo para su cocina.',
     };
   }
 
-  const title = t('title') || 'Zipaquira Digital';
+  // Se obtienen los valores desde los archivos JSON (messages/es.json o en.json)
+  const title = t('title') || 'Ajopel Colombia';
   const description = t('description');
-  const keywords = t('keywords')?.split(",") || [];
+  const keywords = t('keywords')?.split(",") || [
+    "ajo pelado", 
+    "proveedor de ajo", 
+    "ajo al por mayor", 
+    "ajo para restaurantes", 
+    "distribución de ajo Colombia"
+  ];
 
-  const metadataBase = new URL('https://zipaquiradigital.com');
+  const metadataBase = new URL('https://ajopelcolombia.com');
 
-  // Canonical normalizado para evitar doble barra
+  // Canonical normalizado para Ajopel Colombia
   const canonicalUrl = locale === 'es'
     ? metadataBase.toString()
     : new URL(`/${locale}`, metadataBase).toString();
@@ -57,16 +63,16 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       url: canonicalUrl, 
-      siteName: 'Zipaquira Digital',
+      siteName: 'Ajopel Colombia',
       images: [
         {
-          url: `${metadataBase}/images/og-image.jpg`,
+          url: `${metadataBase}/images/og-image.jpg`, // Asegúrate de que esta imagen exista en /public/images/
           width: 1200,
           height: 630,
-          alt: 'OG Image',
+          alt: 'Ajopel Colombia - Ajo Pelado Premium',
         },
       ],
-      locale: locale === 'es' ? 'es_ES' : 'en_US',
+      locale: locale === 'es' ? 'es_CO' : 'en_US', // Ajustado a es_CO por ser empresa colombiana
       type: 'website',
     },
     twitter: {
@@ -76,7 +82,7 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [`${metadataBase}/images/og-image.jpg`],
     },
     alternates: {
-      canonical: canonicalUrl, // Canonical correctamente normalizado
+      canonical: canonicalUrl,
       languages: {
         en: new URL("/en", metadataBase).toString(),
         es: metadataBase.toString()

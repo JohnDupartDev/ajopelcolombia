@@ -9,8 +9,7 @@ export const runtime = 'edge';
 export default async function NosotrosPage() {
   const locale = await getLocale();
   
-  // Usamos un import dinámico basado en la raíz del proyecto
-  // Asegúrate que la ruta sea exactamente donde guardas tus archivos JSON
+  // Importación dinámica de los mensajes para la sección Nosotros de Ajopel
   const nosotrosMessages = (await import(`@/../messages/${locale}/nosotros.json`)).default;  
 
   return (
@@ -28,22 +27,30 @@ export async function generateMetadata(): Promise<Metadata> {
     t = await getTranslations({ locale, namespace: 'Metadata' });
   } catch (error) {
     console.error('Error loading SEO translations:', error);
+    // Metadatos de respaldo específicos para la historia de Ajopel Colombia
     return {
-      title: 'Sobre Nosotros - Ajopel colombia',
-      description: 'Especialistas en venta y distribución de ajo pelado en Colombia y el mundo',
+      title: 'Sobre Nosotros | Ajopel Colombia - Nuestra Historia',
+      description: 'Conoce a Ajopel Colombia, expertos en procesamiento de ajo con tecnología de punta. Comprometidos con la calidad y la eficiencia en su cocina.',
     };
   }
 
-  const title = t('title') || 'AjopelColombia';
+  // Se obtienen los valores desde los archivos JSON (namespace Metadata)
+  const title = t('title') || 'Sobre Nosotros | Ajopel Colombia';
   const description = t('description');
-  const keywords = t('keywords')?.split(",") || [];
+  const keywords = t('keywords')?.split(",") || [
+    "historia ajopel",
+    "empresa de ajo colombia",
+    "procesamiento de ajo",
+    "tecnología alimentaria",
+    "proveedor confiable de ajo"
+  ];
 
   const metadataBase = new URL('https://ajopelcolombia.com');
 
-  // Canonical normalizado para evitar doble barra
+  // Canonical normalizado siguiendo tu esquema de routing (es: /nosotros, en: /about)
   const canonicalUrl = locale === 'es'
-    ? metadataBase.toString()
-    : new URL(`/${locale}`, metadataBase).toString();
+    ? `${metadataBase.origin}/nosotros`
+    : `${metadataBase.origin}/en/about`;
 
   return {
     title,
@@ -54,16 +61,16 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       url: canonicalUrl, 
-      siteName: 'Zipaquira Digital',
+      siteName: 'Ajopel Colombia', // Corregido de Zipaquira Digital
       images: [
         {
           url: `${metadataBase}/images/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'OG Image',
+          alt: 'Equipo y Misión de Ajopel Colombia',
         },
       ],
-      locale: locale === 'es' ? 'es_ES' : 'en_US',
+      locale: locale === 'es' ? 'es_CO' : 'en_US',
       type: 'website',
     },
     twitter: {
@@ -73,10 +80,10 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [`${metadataBase}/images/og-image.jpg`],
     },
     alternates: {
-      canonical: canonicalUrl, // Canonical correctamente normalizado
+      canonical: canonicalUrl,
       languages: {
-        en: new URL("/en", metadataBase).toString(),
-        es: metadataBase.toString()
+        en: new URL("/en/about", metadataBase).toString(),
+        es: new URL("/nosotros", metadataBase).toString()
       }
     }
   };

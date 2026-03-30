@@ -1,0 +1,14 @@
+# robots.txt para Ajopel Colombia
+
+# Permite que todos los motores de búsqueda rastreen el sitio
+
+User-agent: *
+Allow: /
+
+# Sitemap
+
+Sitemap: https://ajopelcolombia.com/sitemap.xml
+
+# Host principal
+
+Host: https://ajopelcolombia.com

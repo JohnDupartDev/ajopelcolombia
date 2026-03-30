@@ -120,7 +120,7 @@ const ProductGrid = () => {
             </div>
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-              style={{ backgroundImage: "url('/images/ajopelado.jpg')" }} 
+              style={{ backgroundImage: "url('/images/ajopelado-f.jpg')" }} 
             />
           </motion.a>
 
